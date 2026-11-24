@@ -1,0 +1,25 @@
+{
+  "name": "remotion-agah-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Semi-automatic Remotion motion graphic studio for Agah Content (Football, Persib, Personal Branding)",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render:sample": "remotion render src/index.ts PersibVsBali out/persib-vs-bali.mp4 --codec=h264 --crf=18",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

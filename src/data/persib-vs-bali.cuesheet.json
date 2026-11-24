@@ -1,0 +1,194 @@
+{
+  "id": "PersibVsBali",
+  "title": "Mentalitas Juara - Persib 2-1 Bali United (Editorial Stage)",
+  "videoSrc": "videos/persib-vs-bali.mp4",
+  "subjectVideoSrc": "videos/persib-vs-bali-subject.webm",
+  "fps": 25,
+  "durationInSeconds": 99.08,
+  "theme": "persib",
+  "stageSegments": [
+    {
+      "startSec": 2.4,
+      "endSec": 26.8,
+      "subjectScale": 1.0,
+      "subjectOffsetY": 540,
+      "backdropLabel": "BRI LIGA 1 • MATCH REVIEW"
+    },
+    {
+      "startSec": 33.5,
+      "endSec": 43.2,
+      "subjectScale": 1.0,
+      "subjectOffsetY": 540,
+      "backdropLabel": "ANALISA DUET"
+    },
+    {
+      "startSec": 47.5,
+      "endSec": 73.8,
+      "subjectScale": 1.0,
+      "subjectOffsetY": 610,
+      "backdropLabel": "COMEBACK & KLASEMEN"
+    },
+    {
+      "startSec": 77.2,
+      "endSec": 87.8,
+      "subjectScale": 1.0,
+      "subjectOffsetY": 540,
+      "backdropLabel": "FLASHBACK • SHOPEE CUP"
+    },
+    {
+      "startSec": 92.8,
+      "endSec": 98.9,
+      "subjectScale": 1.0,
+      "subjectOffsetY": 540,
+      "backdropLabel": "CLOSING"
+    }
+  ],
+  "cues": [
+    {
+      "type": "HookTitle",
+      "startSec": 0.0,
+      "endSec": 2.5,
+      "eyebrow": "BRI LIGA 1 • REVIEW",
+      "text": "Mentalitas Juara!!",
+      "variant": "pill"
+    },
+    {
+      "type": "ScoreboardCard",
+      "startSec": 2.6,
+      "endSec": 9.8,
+      "league": "BRI Liga 1 • Full-Time",
+      "status": "COMEBACK",
+      "initialScore": [0, 1],
+      "homeTeam": {
+        "name": "Persib Bandung",
+        "short": "PSB",
+        "score": 2,
+        "color": "#0052CC",
+        "rankDelta": "▲ Naik ke-4"
+      },
+      "awayTeam": {
+        "name": "Bali United",
+        "short": "BUFC",
+        "score": 1,
+        "color": "#B91C1C",
+        "rankDelta": "▼ Turun ke-5"
+      }
+    },
+    {
+      "type": "KineticBackdrop",
+      "startSec": 10.0,
+      "endSec": 15.2,
+      "eyebrow": "BABAK PERTAMA",
+      "headline": "Tertinggal 0–1 Tidak Mudah!",
+      "accentWord": "0–1",
+      "subline": "Persib ditekan dulu sebelum bangkit di babak kedua."
+    },
+    {
+      "type": "PlayerCutoutCard",
+      "startSec": 15.5,
+      "endSec": 26.6,
+      "subtitle": "GAME CHANGERS • BABAK KEDUA",
+      "players": [
+        {
+          "name": "Mariano Peralta",
+          "role": "Winger",
+          "badge": "SUB IN",
+          "accentColor": "#0052CC"
+        },
+        {
+          "name": "Luka Menalo",
+          "role": "Forward",
+          "badge": "SUB IN",
+          "accentColor": "#2563EB"
+        }
+      ]
+    },
+    {
+      "type": "ThoughtCallout",
+      "startSec": 33.8,
+      "endSec": 43.0,
+      "tag": "DUET PENENTU",
+      "quote": "Begitu Peralta & Menalo masuk, alur pertandingan langsung berubah!",
+      "highlightWord": "berubah"
+    },
+    {
+      "type": "GoalTimeline",
+      "startSec": 47.8,
+      "endSec": 63.2,
+      "title": "COMEBACK 2 MENIT",
+      "events": [
+        {
+          "minute": "HT",
+          "player": "Tertinggal 0 - 1",
+          "detail": "Persib ditekan di babak pertama",
+          "type": "concede",
+          "delaySec": 0.2
+        },
+        {
+          "minute": "79'",
+          "player": "Mariano Peralta",
+          "detail": "Gol penyama kedudukan (1 - 1)",
+          "type": "goal",
+          "delaySec": 4.8
+        },
+        {
+          "minute": "81'",
+          "player": "Luka Menalo",
+          "detail": "Gol penentu kemenangan (2 - 1)",
+          "type": "goal",
+          "delaySec": 10.5
+        }
+      ]
+    },
+    {
+      "type": "StandingsTable",
+      "startSec": 64.5,
+      "endSec": 73.6,
+      "league": "Klasemen Sementara • BRI Liga 1",
+      "rows": [
+        { "pos": 1, "team": "Persija Jakarta", "played": 10, "pts": 22, "move": "same" },
+        { "pos": 2, "team": "Dewa United", "played": 10, "pts": 20, "move": "same" },
+        { "pos": 3, "team": "Madura United", "played": 10, "pts": 19, "move": "same" },
+        { "pos": 4, "team": "Persib Bandung", "played": 10, "pts": 19, "highlight": true, "move": "up" },
+        { "pos": 5, "team": "Bali United", "played": 10, "pts": 19, "move": "down" }
+      ]
+    },
+    {
+      "type": "MediaCard",
+      "startSec": 77.5,
+      "endSec": 87.5,
+      "badge": "SHOPEE CUP ASIA",
+      "title": "Persib vs Shan United",
+      "subtitle": "Menang telak agregat atas juara Myanmar",
+      "scoreBadge": "6 - 0"
+    },
+    {
+      "type": "OutroCTA",
+      "startSec": 93.0,
+      "endSec": 98.8,
+      "punchline": "Yang pasti Bobotoh enak tidur!",
+      "ctaText": "Komen skor prediksi laga berikutnya",
+      "handle": "@agahcontent"
+    }
+  ],
+  "captions": [
+    { "startSec": 0.2, "endSec": 2.4, "text": "Mentalitas juara memang!", "highlight": "juara" },
+    { "startSec": 2.8, "endSec": 6.8, "text": "Persib Bandung kalahkan Bali United 2-1", "highlight": "2-1" },
+    { "startSec": 7.5, "endSec": 9.6, "text": "Dan itu tidak mudah", "highlight": "mudah" },
+    { "startSec": 10.2, "endSec": 13.5, "text": "Babak pertama Persib kalah 1-0", "highlight": "1-0" },
+    { "startSec": 13.8, "endSec": 15.6, "text": "Babak kedua baru tuh...", "highlight": "kedua" },
+    { "startSec": 15.8, "endSec": 19.2, "text": "Peralta masuk, Luka Menalo masuk", "highlight": "masuk" },
+    { "startSec": 19.6, "endSec": 26.2, "text": "Dua-duanya kemarin juga cetak gol di Shopee Cup Asia", "highlight": "gol" },
+    { "startSec": 28.0, "endSec": 33.2, "text": "Persib memang paketannya udah bagus", "highlight": "bagus" },
+    { "startSec": 34.0, "endSec": 41.5, "text": "Kalau ada Menalo sama Peralta udah jadi", "highlight": "Peralta" },
+    { "startSec": 47.2, "endSec": 52.2, "text": "Masuk Peralta & Menalo, skor jadi 2-1", "highlight": "2-1" },
+    { "startSec": 53.0, "endSec": 57.5, "text": "Menit 79 Mariano Peralta cetak gol", "highlight": "79" },
+    { "startSec": 58.0, "endSec": 62.5, "text": "Menit 81 baru Luka Menalo!", "highlight": "81" },
+    { "startSec": 63.0, "endSec": 68.0, "text": "Bali United posisi 4, Persib di bawahnya", "highlight": "posisi" },
+    { "startSec": 70.5, "endSec": 73.5, "text": "Sekarang Persib naik ke-4!", "highlight": "ke-4" },
+    { "startSec": 74.0, "endSec": 77.2, "text": "Kenapa laga ini spektakuler?", "highlight": "spektakuler" },
+    { "startSec": 77.5, "endSec": 87.5, "text": "Sebelumnya Persib menang 6-0 lawan Shan United", "highlight": "6-0" },
+    { "startSec": 88.2, "endSec": 92.8, "text": "Sekarang di BRI Liga 1 menang 2-1", "highlight": "2-1" },
+    { "startSec": 93.2, "endSec": 98.5, "text": "Yang pasti Bobotoh enak tidur!", "highlight": "Bobotoh" }
+  ]
+}
